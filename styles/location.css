@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Outfit:wght@100..900&display=swap');
+
+body{
+  height: 100vh;
+  font-family: "Big Shoulders", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+  text-decoration: none;
+  display: flex;
+  position: absolute; /*სხვა ელემენტზე რომ ყოფილიყო*/
+  top: 0;
+  left: 156px;
+}
+
+.arrow{
+  border: none;
+  background-color: rgba(213, 150, 108, 1);
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 24px;
+  margin-left: 0px;
+}
+
+.home-btn{
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  padding: 24px 44px;
+  margin-right: 0px;
+}
+
+.lower-section{
+  padding: 104px 165px 126px;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.lower-section h1{
+  color: white;
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 70px;
+}
+
+.loc-details h3{
+  color: rgba(213, 150, 108, 1);
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 36px;
+  margin-bottom: 24px;
+}
+
+.loc-details span{
+  color: white;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 32px;
+  margin-bottom: 32px;
+  display: block;
+}
+
+.loc-details p{
+  color: white;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+footer{
+  background-color: rgba(213, 150, 108, 1);
+  padding: 80px 165px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer h3{
+  color: black;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+footer p{
+  color: black;
+}
+
+footer img{
+  margin-right: 20px;
+}
